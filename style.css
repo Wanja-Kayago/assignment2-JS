@@ -1,0 +1,247 @@
+body{
+    background-color: #8DD2CF;
+}
+#container{
+    width: 1500px;
+    margin-left: 170px;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+    margin-top: 100px;
+    background-color:#014852
+    }
+    #words{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    #page{
+        background-color: #003E47;
+        height: 780px;
+        font-size: xx-large;
+        color: white;
+        background-image: url(images/back.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom; 
+        display: flex;
+        justify-content: space-between;
+    
+    }
+#pt1{
+    margin-top: 150px;
+}
+button{
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+#prt2{
+    margin-top: 200px;
+}
+#cont2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    border: solid white;
+    background-color: #FFFFFF;
+}
+#div{
+    border: solid white;
+    background-color: white;
+}
+#cont3{
+    border: solid white;
+    background-color: white;
+}
+#mincont{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+margin-top:100px
+}
+#pt2{
+margin-top: 90px;
+}
+#minicont{
+    text-align: center;
+    font-size: xx-large;
+}
+#cont4{
+    background-color: #CCF5FF;
+    height: 800px;
+}
+#cont5{
+    background-color: white;
+    height: 1800px;
+}
+#heder{
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+#pics{
+    display: flex;
+    justify-content: space-around;
+}
+#minicont1{
+background-color: #003E47;
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    border-radius: 50px;
+    margin-left: 150px;
+    height: 500px;
+}
+#wrds{
+    margin-top: 100px;
+}
+#imgg{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#picc{
+    margin-top: 100px;
+}
+#cont6{
+    width: 2000px;
+}
+@media  all and (min-width: 280px) and (max-width:1024px){
+    body{
+      width: 50%;
+    }
+   
+    #header{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        padding: 10px;
+        margin-top: 100px;
+        background-color:#014852
+        
+        }
+        #words{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap:wrap ;
+        }
+        #page{
+            background-color: #003E47;
+            height: 780px;
+            font-size: xx-large;
+            color: white;
+            background-image: url(images/back.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: bottom; 
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        
+        }
+    #pt1{
+        margin-top: 150px;
+        flex-wrap: wrap;
+    }
+    button{
+        color: white;
+        border-radius: 15px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    #prt2{
+        margin-top: 200px;
+        flex-wrap: wrap;
+    }
+    #cont2{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        border: solid white;
+        background-color: #FFFFFF;
+    }
+    #div{
+        flex-wrap: wrap;
+        border: solid white;
+        background-color: white;
+    }
+    #cont3{
+        flex-wrap: wrap;
+        border: solid white;
+        background-color: white;
+    }
+    #mincont{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    margin-top:100px
+    
+    }
+    #pt2{
+    margin-top: 90px;
+    flex-wrap: wrap;
+    }
+    #minicont{
+        text-align: center;
+        font-size: xx-large;
+        flex-wrap: wrap;
+    }
+    #cont4{
+        background-color: #CCF5FF;
+        height: 800px;
+        flex-wrap: wrap;
+    }
+    #cont5{
+        background-color: white;
+        height: 1800px;
+        flex-wrap: wrap;
+    }
+    #heder{
+        display: flex;
+        justify-content: space-around;
+        font-size: xx-large;
+        flex-wrap: wrap;
+    }
+    #pics{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #minicont1{
+    background-color: #003E47;
+        display: flex;
+        justify-content: space-around;
+        width: 1200px;
+        border-radius: 50px;
+        margin-left: 150px;
+        height: 500px;
+        flex-wrap: wrap;
+    }
+    #wrds{
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+    #imgg{
+        margin-top: 100px;
+        margin-left: 40px;
+        flex-wrap: wrap;
+    }
+    #picc{
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    #cont6{
+        flex-wrap: wrap;
+        width: 2000px;
+    }
+}
+    
+
+
